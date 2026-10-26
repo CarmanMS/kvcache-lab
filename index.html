@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta
+      name="description"
+      content="逐层、逐 head 看见 Transformer 的计算，追踪 KVCache 在 GPU 与机器之间的分布。"
+    />
+    <title>KVCache Lab · 看见模型的记忆</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23264243'/%3E%3Cpath d='M8 8v16m0-8 9-8M8 16l9 8m3-16v16' stroke='%23faf8ee' stroke-width='3' fill='none'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace">跳到实验画布</a>
+    <div id="app"></div>
+    <noscript>请启用 JavaScript 运行浏览器内的数值实验。</noscript>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

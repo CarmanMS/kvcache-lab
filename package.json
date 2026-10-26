@@ -1,0 +1,23 @@
+{
+  "name": "kvcache-lab",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Interactive transformer, KV cache and distributed placement laboratory",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node scripts/test.mjs",
+    "check": "node scripts/check.mjs && prettier --check .",
+    "format": "prettier --write .",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dist"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "prettier": "3.9.10"
+  }
+}
