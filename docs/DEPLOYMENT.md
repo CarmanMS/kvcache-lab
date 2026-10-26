@@ -51,3 +51,14 @@ npm run preview -- --port 5175
 保留上一个已验收版本的提交号或完整部署产物。出现问题时，在托管平台回退到该部署，或从旧版本重新构建后完整替换发布目录。不要混合新旧文件，也不要把旧文件追加到现有目录。
 
 本地开发服务器仅用于本机开发和预览，不承担公开托管。报告安全问题见 [SECURITY.md](../SECURITY.md)。
+
+## 维护者使用 GitHub Pages
+
+本仓库的 `Deploy classroom site` 工作流由维护者手动触发，会重新安装开发依赖、检查、测试和构建，再上传 `dist/` 并部署。它只为部署步骤授予 Pages 写入和短期身份令牌权限。先启用仓库 Pages 的 GitHub Actions 来源，再执行：
+
+```sh
+gh workflow run pages.yml --repo CarmanMS/kvcache-lab --ref main
+gh run list --repo CarmanMS/kvcache-lab --workflow pages.yml
+```
+
+部署地址：https://carmanms.github.io/kvcache-lab/ 。每次发布后仍需在实际站点验证模块、样式、操作和许可证文件，不能只看工作流绿色状态。

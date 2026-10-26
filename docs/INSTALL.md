@@ -10,14 +10,14 @@ KVCache Lab 可以作为独立仓库运行，不需要其他主仓、知识库�
 
 ## 取得源码
 
-v0.1.0 当前在[私有仓库](https://github.com/CarmanMS/kvcache-lab)验证。取得仓库访问权限后可以克隆；也可以解压维护者提供的完整源码包。
+从[开源仓库](https://github.com/CarmanMS/kvcache-lab)克隆，或从 Releases 下载对应版本源码包。
 
 ```sh
 git clone https://github.com/CarmanMS/kvcache-lab.git
 cd kvcache-lab
 ```
 
-私有验证期间需要维护者授予访问权限。源码包必须包含 `package.json`、`package-lock.json`、`scripts/`、`src/`、`tests/` 和许可证，不应只复制单个 HTML 文件。
+源码包必须包含 `package.json`、`package-lock.json`、`scripts/`、`src/`、`tests/` 和许可证，不应只复制单个 HTML 文件。
 
 ## 安装开发工具并启动
 

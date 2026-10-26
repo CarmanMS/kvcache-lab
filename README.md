@@ -65,7 +65,9 @@ npm run preview
 
 ## 版本与贡献
 
-当前为经过审查的早期 v0.1.0，正在[私有仓库](https://github.com/CarmanMS/kvcache-lab)验证，尚未公开发布。跨平台 CI 已配置，当前实际验证环境为 macOS；MoE、MLA、KDA 尚未实现。
+当前为经过审查的早期 v0.1.0，采用 MIT 许可证。Windows、Linux、macOS 的 Node.js 22/24 六组 CI 均已通过；MoE、MLA、KDA 尚未实现。
+
+[在线实验室](https://carmanms.github.io/kvcache-lab/) · [源码](https://github.com/CarmanMS/kvcache-lab) · [版本发布](https://github.com/CarmanMS/kvcache-lab/releases/tag/v0.1.0)
 
 - [架构与计算边界](docs/ARCHITECTURE.md)
 - [开源前审查与验证](docs/REVIEW.md)

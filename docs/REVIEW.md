@@ -37,6 +37,6 @@
 
 ## 发布边界
 
-当前是经过审查的早期教学版本，不称为成熟稳定版本。实际运行验证在macOS完成；Windows/Linux及Node24尚待CI实际执行。未进行长期课堂使用、完整辅助技术审计或真实性能验证。
+当前是经过审查的早期教学版本，不称为成熟稳定版本。浏览器验证在macOS完成；Windows/Linux/macOS 的 Node22/24 六组CI均已实际通过（[运行记录](https://github.com/CarmanMS/kvcache-lab/actions/runs/40289789257)，提交f4954ba）。未进行长期课堂使用、完整辅助技术审计或真实性能验证。
 
-模型是确定性教学Transformer，页池和设备是明确约定的模拟；没有运行真实SGLang或真实多机通信。MoE、MLA、KDA仍属后续范围。已建立[私有验证仓库](https://github.com/CarmanMS/kvcache-lab)，尚未公开发布，实际CI结果另行记录。
+模型是确定性教学Transformer，页池和设备是明确约定的模拟；没有运行真实SGLang或真实多机通信。MoE、MLA、KDA仍属后续范围。源码仓库：https://github.com/CarmanMS/kvcache-lab 。发布状态见版本说明与Release。
